@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import assert from 'power-assert';
+import jsdom from 'jsdom';
 
 import CommentBox from '../src/CommentBox';
 import CommentForm from '../src/CommentForm';

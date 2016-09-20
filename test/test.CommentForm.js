@@ -5,8 +5,6 @@ import sinon from 'sinon';
 
 import CommentForm from '../src/CommentForm';
 
-
-
 describe('<CommentForm />', ()=>{
   it('CommentForm has submit button', ()=>{
     const wrapper = shallow(<CommentForm />);
