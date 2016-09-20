@@ -1,0 +1,5 @@
+box: node:6.6.0-slim
+build:
+  steps:
+    - npm-install
+    - npm-test
